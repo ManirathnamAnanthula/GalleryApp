@@ -1,0 +1,31 @@
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnailItem-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 80%;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 740px;
+  }
+}
